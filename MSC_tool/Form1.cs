@@ -50,7 +50,7 @@ namespace MSC_tool
                     $"Файл: {Path.GetFileName(openFileDialog1.FileName)}\n" +
                     $"Обсяг вибірки n = {n}" + "\n\n" +
                     $"Матсподівання = {mean:G10}\n" +
-                    $"Дисперсія = {varSample:G10}\n" +
+                    $"Середньоквадратичне відхилення = {sd:G10}\n" +
                     "\n" +
                     $"t(0.975; {df}) = {t:G6}\n" +
                     $"95% довірчий інтервал:\n[{mean - margin:G10} ; {mean + margin:G10}]";
